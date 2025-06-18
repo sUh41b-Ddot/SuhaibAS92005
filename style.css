@@ -1,5 +1,5 @@
 .topNav{
-background-color: #a1b4b5;
+background-color: #444;
 overflow: hidden;
 }
 
@@ -21,4 +21,15 @@ overflow: hidden;
   float: right;
   background-color: #04AA6D;
   color: white;
+}
+
+div.scroll-container {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}
+
+div.scroll-container img {
+  padding: 10px;
 }
