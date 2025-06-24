@@ -33,3 +33,12 @@ div.scroll-container {
 div.scroll-container img {
   padding: 10px;
 }
+
+
+div {
+  border: 2px solid black;
+  outline: # solid 10px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
