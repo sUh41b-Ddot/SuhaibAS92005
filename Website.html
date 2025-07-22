@@ -1,35 +1,171 @@
 <!DOCTYPE html>
-<html lang="en">
-<meta charset="UTF-8">
-<title>Ocean Savers</title>
-<link rel="stylesheet" href="style.css">
-<body style="background-color:#818589;">
-<div class="topNav">
-    <a href=" #home">Home </a>
-    <a href="self improvement">Self improvement</a>
-    <a href="about">About</a>
-    <a href="contact">Help</a>
-    <img width="50" src="images/icon.png">
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Ocean Savers</h1>
+  <p></p>
 </div>
 
-<div class="scroll-container">
-  <img width="300" src="images/Ocean 1.png" alt="Islands of Maldives">
-  <img width="288" src="images/Ocean 2.png" alt="South Island">
-  <img width="290" src="images/Ocean 3.png" alt="Huka Falls">
-  <img width="412" src="images/Ocean 4.png" alt="Piha Beach">
-    <img width="380" src="images/Ocean 5.png" alt="South Island">
-    <img width="390" src="images/Ocean 6.png" alt="North Island">
+<div class="topnav">
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#">Link</a>
+  <a href="#" style="float:right">Link</a>
 </div>
 
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>World Pollution</h2>
+      <h5>This is a photo of the plastic waste washed up on the coasts of india </h5>
+      <img src="images/India.png">
+      <p></p>
+      <p>The Ocean is the life of our planet we as humans must protect the ocean from any harm such as pollution, This is a photo of a beach in India it shows all the washed up plastic waste on the beach and what seems to be very contaminated water and people swimming in it this beach is one of many all around the world that have the same problem plastic waste. Its not just humans getting harmed by this problem the ocean inhabitants are facing the consequences of our actions this needs to be stopped. </p>
+    </div>
+    <div class="card">
+      <h2>Nz Water Pollution</h2>
+      <h5></h5>
+      <img src="images/Sign 1.png">
+      <p></p>
+      <p>Water pollution in New Zealand causes problems for the environment, public health, and the economy. It leads to things like harmful algae growth, loss of wildlife, and plastic pollution, which hurt rivers, lakes, and oceans. Peoples health can be affected by dirty water, causing diseases or making it unsafe to swim. It also hurts tourism, fishing, and farming, leading to lost money and higher cleanup costs. Maori communities are affected too, as they rely on clean water for cultural practices. Over time, pollution makes climate change worse and increases the cost of cleaning up. The government may impose stricter rules, which could affect industries and public trust,New Zealands rivers and lakes are facing serious problems that affect both people and the environment. High E. coli(High E. coli levels mean the water is contaminated with bacteria from human or animal waste. This can make the water unsafe, causing illnesses like stomach cramps, diarrhea, and vomiting if people swim or fish in it.)
+ levels and algae blooms makes swimming and fishing dangerous. Contaminated water could also impact drinking supplies, while dirty water harms tourism and nature. Farmers, especially in dairy, may face stricter rules to reduce pollution, which could affect their work. Many Maori iwi also have a strong cultural connection to freshwater, and pollution threatens that bond. Its clear that urgent action are needed to protect our water, health, and environment for the future.
+ </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+       <h2>Wesites used for information</h2>
+      <a href=https://www.rnz.co.nz/news/national/475457/more-than-80-percent-of-new-zealand-s-low-lying-lakes-and-rivers-surveyed-poor-or-very-poor>Visit RNZ</a>
+      <br>
+      <br>
+      <a href="https://environment.govt.nz/publications/our-freshwater-2020/issue-2-water-is-polluted-in-urban-farming-and-forestry-areas/">Visit Ministry for the Environment </a>
+      <p></p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
 
-<div class = "fle">The ocean covers more than 70% of our planet and plays a huge role in keeping the climate balanced by absorbing heat and carbon dioxide. It’s home to an incredible variety of life—from tiny plankton to huge whales—many of which we still don’t fully understand. The ocean also provides food, jobs, and fun for billions of people around the world. But it’s facing big problems like pollution, overfishing, and climate change, which threaten marine life and ecosystems. Protecting the ocean is really important if we want to keep our planet healthy for future generations.
-New Zealand’s ocean is full of life and always changing. It’s important for both
-    nature and people, but it’s facing big problems like pollution and over fishing.
-    If we could watch the ocean closely all the time, we’d understand it better and be
-    able to protect it for the future.</div>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/HQTUWK7CM-Y?si=kdPZnxFb1YWXpQWE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
 
 </body>
 </html>
+
+
