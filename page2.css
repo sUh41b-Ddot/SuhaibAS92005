@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
 }
 
@@ -58,7 +58,7 @@ body {
 
 
 
-/* Add a card effect for articles */
+
 .card {
   background:white;
   padding: 20px;
